@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>html 5 lab2</title>
+</head>
+<body>
+ 
+    <section class="container">
+        <div id="toolbar">
+            <h1>Draw</h1>
+            <label for="fill">Fill Style</label>
+            <input id="fill" name='fill' type="color">
+
+            <label for="stroke">Stroke Style</label>
+            <input id="stroke" name='stroke' type="color">
+
+            <label for="lineWidth">Line Width</label>
+            <input id="lineWidth" name='lineWidth' type="number" value="5">
+           
+            <button id="clear">Clear</button>
+        </div>
+        <div class="drawing-board">
+            <canvas id="my-canvas" width="1000" height="800">
+
+            </canvas>
+        </div>
+        <div id="shapebar">
+            <h1>Choose Shape</h1>
+            <input id="circle" type="image" src="img/circle-removebg-preview.png" alt="Submit" width="48" height="48">
+            <input id="freeLine" type="image" src="img/freeline.png" alt="Submit" width="48" height="48">
+            <input id="line" type="image" src="img/line.png" alt="Submit" width="48" height="48">
+            <input id="rectangle" type="image" src="img/rectangle.png" alt="Submit" width="48" height="48">
+            <input id="easer" type="image" src="img/easer-removebg-preview.png" alt="Submit" width="48" height="48">
+        </div>
+    </section>
+
+
+
+<!-- <img id="img-flower" src="flowers_3.jpg" alt=""> -->
+    <script src="script.js"></script>
+</body>
+</html>
